@@ -16,6 +16,7 @@ yfinance = "^0.1.72"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 ipykernel = "^6.15.0"
+pretty-errors = "^1.2.25"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
