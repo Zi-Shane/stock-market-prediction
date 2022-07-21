@@ -14,4 +14,10 @@ def download_ticker(company: str):
     print('/datasets/' + company + '_actions.csv')
 
 
+try:
+    os.mkdir('datasets')
+    print('create directory: `datasets` ')
+except:
+    print('`datasets` already exist')
+
 download_ticker('BRK-A')
